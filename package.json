@@ -1,0 +1,29 @@
+{
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc -b && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "nuqs": "^2.4.1",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
+        "react-router-dom": "^6",
+        "zustand": "^5.0.3"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "1.9.4",
+        "@types/bun": "latest",
+        "@types/react": "^19.0.10",
+        "@types/react-dom": "^19.0.4",
+        "@vitejs/plugin-react-swc": "^3.8.0",
+        "globals": "^16.0.0",
+        "vite": "^6.2.1"
+    },
+    "name": "usefilters",
+    "module": "index.ts",
+    "type": "module",
+    "peerDependencies": {
+        "typescript": "^5.8.0"
+    }
+}
